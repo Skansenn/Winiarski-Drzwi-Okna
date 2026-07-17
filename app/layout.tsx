@@ -27,6 +27,12 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <head>
+        <Script
+          id="cookieyes"
+          type="text/javascript"
+          src="https://cdn-cookieyes.com/client_data/49ac457f8860cc506900c16f3fc295ab/script.js"
+          strategy="beforeInteractive"
+        />
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
