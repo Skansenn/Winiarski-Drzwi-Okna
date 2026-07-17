@@ -5,6 +5,7 @@ import Features from "@/components/sections/Features";
 import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
 import Testimonials from "@/components/sections/Testimonials";
+import Gallery from "@/components/sections/Gallery";
 import Contact from "@/components/sections/Contact";
 
 export default function HomePage() {
@@ -22,6 +23,7 @@ export default function HomePage() {
       <div id="faq">
         <FAQ />
       </div>
+      <Gallery />
       <Testimonials />
       <Contact />
     </main>
