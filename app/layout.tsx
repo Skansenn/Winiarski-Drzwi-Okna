@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
-
+import FloatingContact from "../components/FloatingContact";
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
   variable: "--font-inter",
@@ -47,6 +47,7 @@ export default function RootLayout({
           ></iframe>
         </noscript>
         {children}
+        <FloatingContact />
       </body>
     </html>
   );
