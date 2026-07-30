@@ -7,25 +7,49 @@ import FAQ from "@/components/sections/FAQ";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
 import Contact from "@/components/sections/Contact";
+import FadeIn from "@/components/ui/FadeIn";
 
 export default function HomePage() {
   return (
     <main className="w-full overflow-hidden bg-background">
       <Hero />
+      
       <div id="problemy">
-        <PainPoints />
+        <FadeIn>
+          <PainPoints />
+        </FadeIn>
       </div>
-      <Solution />
+      
+      <FadeIn>
+        <Solution />
+      </FadeIn>
+      
       <div id="oferta">
-        <Features />
-        <Pricing />
+        <FadeIn>
+          <Features />
+        </FadeIn>
+        <FadeIn>
+          <Pricing />
+        </FadeIn>
       </div>
+      
       <div id="faq">
-        <FAQ />
+        <FadeIn>
+          <FAQ />
+        </FadeIn>
       </div>
-      <Gallery />
-      <Testimonials />
-      <Contact />
+      
+      <FadeIn>
+        <Gallery />
+      </FadeIn>
+      
+      <FadeIn>
+        <Testimonials />
+      </FadeIn>
+      
+      <FadeIn>
+        <Contact />
+      </FadeIn>
     </main>
   );
 }
