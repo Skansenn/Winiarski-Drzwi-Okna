@@ -1,4 +1,5 @@
 import { Phone, Mail, DoorOpen } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -12,9 +13,17 @@ export default function Contact() {
         <h2 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-6 tracking-tight">
           Czas na ciepły i cichy dom <span className="text-primary block mt-2">bez nerwów o terminy</span>
         </h2>
-        <p className="text-xl text-slate-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+        <p className="text-xl text-slate-300 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
           Nie musisz niczego zgadywać ani mierzyć na własną rękę. Zrób pierwszy krok i umów się na darmowy pomiar. Przyjedziemy na miejsce, sprawdzimy otwory montażowe i podamy Ci ostateczną, uczciwą cenę – całkowicie bez zobowiązań. Jeśli wybierzesz drzwi w promocji za 2200 zł lub inny model z naszego magazynu w Radomiu, montaż możemy zrobić nawet następnego dnia.
         </p>
+
+        <div className="flex flex-col items-center justify-center mb-8">
+          <div className="relative w-20 h-20 mb-3 rounded-full overflow-hidden border-4 border-primary/20 shadow-[0_0_20px_rgba(220,38,38,0.2)]">
+            <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover" />
+          </div>
+          <p className="text-white font-medium text-lg">Masz pytania? Chętnie odpowiem!</p>
+          <p className="text-sm text-slate-400">Andrzej Winiarski</p>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a href="tel:+48604257107" className="flex items-center justify-center gap-3 bg-primary hover:bg-primary-hover text-white font-semibold py-4 px-8 rounded-xl transition-all shadow-[0_0_15px_rgba(220,38,38,0.3)] w-full sm:w-auto transform hover:-translate-y-1">
