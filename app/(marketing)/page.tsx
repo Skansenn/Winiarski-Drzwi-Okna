@@ -15,15 +15,15 @@ export default function HomePage() {
     <main className="w-full overflow-hidden bg-background">
       <Hero />
       
+      <FadeIn>
+        <AboutOwner />
+      </FadeIn>
+      
       <div id="problemy">
         <FadeIn>
           <PainPoints />
         </FadeIn>
       </div>
-      
-      <FadeIn>
-        <AboutOwner />
-      </FadeIn>
       
       <FadeIn>
         <Solution />
