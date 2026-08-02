@@ -18,8 +18,20 @@ export default function Footer() {
               <MapPin className="w-4 h-4 text-primary shrink-0 mt-0.5" />
               <span>Działamy w Radomiu oraz w promieniu do 100 km <br/>(województwo mazowieckie, świętokrzyskie, łódzkie i lubelskie).</span>
             </div>
-          <div className="flex flex-col space-y-3 md:text-right">
+          </div>
+          <div className="flex flex-col space-y-3 md:items-end md:text-right">
              <p className="text-white font-heading font-semibold mb-2">Szybki kontakt</p>
+             
+             <div className="flex items-center gap-3 mb-2 justify-start md:justify-end">
+                <div className="text-left md:text-right">
+                  <p className="text-sm text-slate-300 font-medium">Andrzej Winiarski</p>
+                  <p className="text-xs text-slate-500">chętnie odpowiem na pytania</p>
+                </div>
+                <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-primary/20 shrink-0 order-first md:order-last shadow-[0_0_15px_rgba(220,38,38,0.2)]">
+                  <Image src="/glowa.jpg" alt="Andrzej Winiarski" fill className="object-cover object-top" />
+                </div>
+             </div>
+
              <a href="mailto:oknadrzwi.winiarski@op.pl" className="text-sm font-light hover:text-white transition-colors flex items-center md:justify-end gap-2">
                 <Mail className="w-4 h-4 text-primary" />
                 oknadrzwi.winiarski@op.pl

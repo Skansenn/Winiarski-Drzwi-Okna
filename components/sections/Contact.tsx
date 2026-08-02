@@ -18,8 +18,8 @@ export default function Contact() {
         </p>
 
         <div className="flex flex-col items-center justify-center mb-10">
-          <div className="relative w-48 h-56 md:w-56 md:h-64 mb-6 rounded-2xl overflow-hidden shadow-2xl">
-            <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover object-[center_10%]" />
+          <div className="relative w-48 h-56 md:w-56 md:h-64 mb-6 rounded-3xl overflow-hidden border-[5px] border-primary/20 shadow-[0_0_30px_rgba(220,38,38,0.25)] transform hover:-translate-y-1 transition-transform duration-300">
+            <Image src="/glowa.jpg" alt="Andrzej Winiarski" fill className="object-cover object-top" />
           </div>
           <p className="text-white font-medium text-2xl mb-1">Masz pytania? Chętnie odpowiem!</p>
           <p className="text-lg text-slate-400">Andrzej Winiarski</p>
