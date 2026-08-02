@@ -1,5 +1,6 @@
 import { Check } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Pricing() {
   return (
@@ -68,10 +69,12 @@ export default function Pricing() {
             <div className="lg:w-1/2 relative min-h-[400px]">
               <div className="absolute inset-0 bg-gradient-to-r from-[#1A1A1A] to-transparent z-10 hidden lg:block"></div>
               <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A1A] to-transparent z-10 lg:hidden"></div>
-              <div 
-                className="absolute inset-0 bg-cover bg-center opacity-90"
-                style={{ backgroundImage: 'url("/drzwi.png")' }}
-              ></div>
+              <Image
+                src="/drzwi.png"
+                alt="Solidne drzwi z montażem Radom"
+                fill
+                className="object-cover object-center opacity-90"
+              />
             </div>
 
           </div>

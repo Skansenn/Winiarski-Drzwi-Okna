@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="mb-10 md:mb-0">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <img src="/logo.png" alt="Winiarski Okna Drzwi Logo" className="h-20 w-auto object-contain" />
+              <Image src="/logo.png" alt="Winiarski Okna Drzwi Logo" width={250} height={80} className="h-20 w-auto object-contain" />
             </Link>
             <p className="max-w-sm text-sm leading-relaxed text-slate-500 mb-6">
               Szybki i szczelny montaż stolarki. Dbamy o to, by w Twoim domu było ciepło i cicho. Gwarantujemy brak opóźnień i najwyższą jakość prac instalacyjnych.

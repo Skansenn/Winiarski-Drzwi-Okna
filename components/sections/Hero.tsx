@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, ShieldCheck, Heart, DoorOpen, LayoutGrid, Wrench } from 'lucide-react';
 
 export default function Hero() {
@@ -7,9 +8,12 @@ export default function Hero() {
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#1A1A1A]/80 to-[#1A1A1A]/30 z-10" />
-        <div 
-          className="absolute inset-0 bg-cover bg-center z-0 opacity-40 grayscale"
-          style={{ backgroundImage: 'url("/hero.png")' }}
+        <Image
+          src="/hero.png"
+          alt="Winiarski - Szybki i szczelny montaż okien oraz drzwi Radom"
+          fill
+          priority
+          className="z-0 opacity-40 grayscale object-cover object-center"
         />
         
         {/* Subtle decorative icons indicating windows, doors & tools */}

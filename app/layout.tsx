@@ -15,8 +15,46 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Winiarski Drzwi Okna",
-  description: "Nowoczesny, szczelny i bezpieczny montaż stolarki otworowej dla Twojego domu na lata.",
+  title: "Winiarski - Montaż Okien i Drzwi Radom",
+  description: "Nowoczesny, szczelny i bezpieczny montaż stolarki otworowej dla Twojego domu na lata. Profesjonalna ekipa montażowa w Radomiu i okolicach.",
+  keywords: ["montaż okien", "montaż drzwi", "wymiana okien", "wymiana drzwi", "szczelny montaż", "Radom", "stolarka otworowa", "okna Radom", "drzwi Radom", "ciepły montaż"],
+  authors: [{ name: "Winiarski Drzwi Okna" }],
+  creator: "Winiarski Drzwi Okna",
+  publisher: "Winiarski Drzwi Okna",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "pl_PL",
+    url: "https://winiarski-drzwi-okna.pl",
+    title: "Winiarski - Montaż Okien i Drzwi Radom",
+    description: "Nowoczesny, szczelny i bezpieczny montaż stolarki otworowej dla Twojego domu na lata. Profesjonalna ekipa montażowa w Radomiu i okolicach.",
+    siteName: "Winiarski Drzwi Okna",
+    images: [
+      {
+        url: "/hero.png",
+        width: 1200,
+        height: 630,
+        alt: "Winiarski - Profesjonalny montaż okien i drzwi",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Winiarski - Montaż Okien i Drzwi Radom",
+    description: "Nowoczesny, szczelny i bezpieczny montaż stolarki otworowej dla Twojego domu na lata.",
+    images: ["/hero.png"],
+    creator: "@winiarski_montaz",
+  },
 };
 
 export default function RootLayout({

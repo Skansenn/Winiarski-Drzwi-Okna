@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
@@ -14,7 +15,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center gap-3 group">
-                <img src="/logo.png" alt="Winiarski Okna Drzwi Logo" className="h-16 w-auto object-contain" />
+                <Image src="/logo.png" alt="Winiarski Okna Drzwi Logo" width={200} height={64} priority className="h-16 w-auto object-contain" />
               </Link>
             </div>
             <nav className="hidden md:flex space-x-8">
