@@ -17,12 +17,12 @@ export default function Contact() {
           Nie musisz niczego zgadywać ani mierzyć na własną rękę. Zrób pierwszy krok i umów się na darmowy pomiar. Przyjedziemy na miejsce, sprawdzimy otwory montażowe i podamy Ci ostateczną, uczciwą cenę – całkowicie bez zobowiązań. Jeśli wybierzesz drzwi w promocji za 2200 zł lub inny model z naszego magazynu w Radomiu, montaż możemy zrobić nawet następnego dnia.
         </p>
 
-        <div className="flex flex-col items-center justify-center mb-8">
-          <div className="relative w-20 h-20 mb-3 rounded-full overflow-hidden border-4 border-primary/20 shadow-[0_0_20px_rgba(220,38,38,0.2)]">
-            <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover" />
+        <div className="flex flex-col items-center justify-center mb-10">
+          <div className="relative w-32 h-32 mb-5 rounded-full overflow-hidden border-4 border-primary/20 shadow-[0_0_30px_rgba(220,38,38,0.25)]">
+            <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover object-[center_15%] scale-110" />
           </div>
-          <p className="text-white font-medium text-lg">Masz pytania? Chętnie odpowiem!</p>
-          <p className="text-sm text-slate-400">Andrzej Winiarski</p>
+          <p className="text-white font-medium text-xl">Masz pytania? Chętnie odpowiem!</p>
+          <p className="text-slate-400">Andrzej Winiarski</p>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
