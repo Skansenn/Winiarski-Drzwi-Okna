@@ -54,7 +54,7 @@ export default function AboutOwner() {
           </div>
           
           <div className="lg:w-1/2 w-full order-1 lg:order-2">
-            <div className="relative w-full aspect-[4/5] max-w-[450px] mx-auto lg:ml-auto">
+            <div className="relative w-full aspect-[3/4] max-w-[450px] mx-auto lg:ml-auto">
               {/* Photo frame decoration */}
               <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-transparent rounded-[2rem] blur-xl"></div>
               <div className="absolute inset-0 border border-primary/20 rounded-3xl transform translate-x-4 translate-y-4"></div>
@@ -64,7 +64,7 @@ export default function AboutOwner() {
                   src="/Andrzej.JPG"
                   alt="Andrzej Winiarski - Właściciel"
                   fill
-                  className="object-cover object-center"
+                  className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>

@@ -25,6 +25,10 @@ export default function HomePage() {
         <Solution />
       </FadeIn>
       
+      <FadeIn>
+        <AboutOwner />
+      </FadeIn>
+      
       <div id="oferta">
         <FadeIn>
           <Features />
@@ -46,10 +50,6 @@ export default function HomePage() {
       
       <FadeIn>
         <Testimonials />
-      </FadeIn>
-      
-      <FadeIn>
-        <AboutOwner />
       </FadeIn>
       
       <FadeIn>
