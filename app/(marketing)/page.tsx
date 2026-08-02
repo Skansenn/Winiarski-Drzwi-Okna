@@ -6,6 +6,7 @@ import Pricing from "@/components/sections/Pricing";
 import FAQ from "@/components/sections/FAQ";
 import Testimonials from "@/components/sections/Testimonials";
 import Gallery from "@/components/sections/Gallery";
+import AboutOwner from "@/components/sections/AboutOwner";
 import Contact from "@/components/sections/Contact";
 import FadeIn from "@/components/ui/FadeIn";
 
@@ -45,6 +46,10 @@ export default function HomePage() {
       
       <FadeIn>
         <Testimonials />
+      </FadeIn>
+      
+      <FadeIn>
+        <AboutOwner />
       </FadeIn>
       
       <FadeIn>
