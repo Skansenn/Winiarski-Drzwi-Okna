@@ -27,8 +27,8 @@ export default function Footer() {
                   <p className="text-sm text-slate-300 font-medium">Andrzej Winiarski</p>
                   <p className="text-xs text-slate-500">chętnie odpowiem na pytania</p>
                 </div>
-                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary/20 shrink-0 order-first md:order-last">
-                  <Image src="/Andrzej.JPG" alt="Andrzej Winiarski" fill className="object-cover scale-[2.5] origin-[50%_20%]" />
+                <div className="relative w-12 h-14 rounded-xl overflow-hidden border-2 border-primary/20 shrink-0 order-first md:order-last">
+                  <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover object-[center_15%] scale-110" />
                 </div>
              </div>
 
