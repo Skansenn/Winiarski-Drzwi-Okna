@@ -18,11 +18,11 @@ export default function Contact() {
         </p>
 
         <div className="flex flex-col items-center justify-center mb-10">
-          <div className="relative w-32 h-32 mb-5 rounded-full overflow-hidden border-4 border-primary/20 shadow-[0_0_30px_rgba(220,38,38,0.25)]">
-            <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover object-[center_15%] scale-110" />
+          <div className="relative w-40 h-40 md:w-48 md:h-48 mb-6 rounded-full overflow-hidden border-[5px] border-primary/20 shadow-[0_0_30px_rgba(220,38,38,0.25)]">
+            <Image src="/glowka.JPG" alt="Andrzej Winiarski" fill className="object-cover scale-[1.8] origin-[50%_18%]" />
           </div>
-          <p className="text-white font-medium text-xl">Masz pytania? Chętnie odpowiem!</p>
-          <p className="text-slate-400">Andrzej Winiarski</p>
+          <p className="text-white font-medium text-2xl mb-1">Masz pytania? Chętnie odpowiem!</p>
+          <p className="text-lg text-slate-400">Andrzej Winiarski</p>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

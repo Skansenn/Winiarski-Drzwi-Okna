@@ -29,7 +29,7 @@ export default function AboutOwner() {
               
               <div className="bg-[#1A1A1A] p-6 rounded-2xl border border-primary/20 relative shadow-lg">
                 <Coffee className="absolute top-6 right-6 w-8 h-8 text-primary/30" />
-                <p className="relative z-10">
+                <p className="relative z-10 pr-10">
                   Chcesz najpierw zobaczyć towar na własne oczy? Wpadnij do magazynu. Zaparzę kawę i pokażę wszystko na miejscu. Uprzedzam, że o drzwiach potrafię mówić za długo — możesz to potraktować jak darmową konsultację.
                 </p>
               </div>
