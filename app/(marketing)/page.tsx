@@ -22,11 +22,11 @@ export default function HomePage() {
       </div>
       
       <FadeIn>
-        <Solution />
+        <AboutOwner />
       </FadeIn>
       
       <FadeIn>
-        <AboutOwner />
+        <Solution />
       </FadeIn>
       
       <div id="oferta">
