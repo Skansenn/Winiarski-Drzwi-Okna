@@ -8,7 +8,7 @@ export default function Testimonials() {
     // Only inject if the script hasn't been added yet
     if (containerRef.current && !containerRef.current.querySelector('script')) {
       const script = document.createElement('script');
-      script.src = 'https://cdn.trustindex.io/loader.js?c236ee47810f089be826fb5ca0c';
+      script.src = 'https://cdn.trustindex.io/loader.js?e38e64378f017052de2637b8657';
       script.async = true;
       script.defer = true;
       containerRef.current.appendChild(script);
